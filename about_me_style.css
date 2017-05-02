@@ -1,10 +1,18 @@
+/* the font should be in Georgia, if available, if not, then Cochin, if not that, finally in TNR*/
 body {
     font-family: Georgia, Cochin, Times New Roman;
 }
+/* the primary header should be in purple */
 h1 {
-    color: purple
+    color: purple;
 }
-p {
+/* the secondary header should be in blue */
+h3 {
     color: blue;
+    font-family: Arial;
+}
+/* the paragraph should be in black */
+p {
+    color: black;
     
 }

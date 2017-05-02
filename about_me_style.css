@@ -1,6 +1,7 @@
 /* the font should be in Georgia, if available, if not, then Cochin, if not that, finally in TNR*/
 body {
     font-family: Georgia, Cochin, Times New Roman;
+    text-align: center;
 }
 /* the primary header should be in purple */
 h1 {

@@ -48,7 +48,7 @@ console.log('Q4? ' + microbio);
 
 //If the answer to 'mayo' is no, output "You're right!" //
 var mayo=prompt('Do I like mayonnaise?');
-if (mayo.toUpperCase () === 'n' || microbio.toUpperCase () === 'no') {
+if (mayo.toUpperCase () === 'n' || mayo.toUpperCase () === 'no') {
     alert('You\'re right!');
 }
 else{

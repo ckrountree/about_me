@@ -18,7 +18,7 @@ console.log('Q1? ' + name);
 
 //If the answer to 'age' is yes, output "What are you trying to say?" //
 var age=prompt('Am I over 21 years old?');
-if (age.toUpperCase () === 'y' || age.toUpperCase () === 'yes') {
+if (age.toUpperCase () === 'Y' || age.toUpperCase () === 'YES') {
     alert('What are you trying to say?');
 }
 else{
@@ -28,7 +28,7 @@ console.log('Q2? ' + age);
 
 //If the answer to 'soccer' is yes, output "GOAL!" //
 var soccer=prompt('Was I once a soccer player?');
-if (soccer.toUpperCase () === 'y' || soccer.toUpperCase () === 'yes') {
+if (soccer.toUpperCase () === 'Y' || soccer.toUpperCase () === 'YES') {
     alert('GOAL!');
 }
 else{
@@ -38,7 +38,7 @@ console.log('Q3? ' + soccer);
 
 //If the answer to 'microbio' is no, output "You're a good listener!" //
 var microbio=prompt('Am I a microbiologist?');
-if (microbio.toUpperCase () === 'n' || microbio.toUpperCase () === 'no') {
+if (microbio.toUpperCase () === 'N' || microbio.toUpperCase () === 'NO') {
     alert('You\'re a good listener!');
 }
 else{
@@ -48,7 +48,7 @@ console.log('Q4? ' + microbio);
 
 //If the answer to 'mayo' is no, output "You're right!" //
 var mayo=prompt('Do I like mayonnaise?');
-if (mayo.toUpperCase () === 'n' || mayo.toUpperCase () === 'no') {
+if (mayo.toUpperCase () === 'N' || mayo.toUpperCase () === 'NO') {
     alert('You\'re right!');
 }
 else{

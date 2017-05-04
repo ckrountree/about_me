@@ -5,15 +5,18 @@ body {
 }
 /* the primary header should be in purple */
 h1 {
-    color: purple;
+    color: blanchedalmond;
+    background-color: darkgreen
 }
-/* the secondary header should be in blue */
+/* the secondary header should be in Helvetica, color blue */
 h3 {
     color: blue;
-    font-family: Arial;
+    font-family: Helvetica;
 }
 /* the paragraph should be in black */
 p {
     color: black;
+    border-style: solid;
+    border-color: purple;
     
 }

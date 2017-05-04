@@ -57,17 +57,58 @@
 // console.log('Q5? ' + mayo);
 
 // If the user answers the truffle question with 10, he will get a 'yes' response, with less than 10, he will get a 'too low' response and with more than 10, a 'too high' response. This for loop will run a max of 4 times
-for (var i = 0; i < 4; i++) {
-    var truffle = prompt('How many chocolate truffles can I eat in one sitting before getting sick?');
-    truffle = parseInt(truffle)
+// for (var i = 0; i < 3; i++) {
+//     var truffle = prompt('How many chocolate truffles can I eat in one sitting before getting sick?');
+//     truffle = parseInt(truffle)
     
-    if (truffle === 10) {
-        alert('Yes, please join me!');
-        break;
-    } else if (truffle < 10) {
-        alert('Too low, try again.');
-    } else {
-        alert('Too high, I\'m already sick!');
+//     if (truffle === 10) {
+//         alert('Yes, please join me!');
+//         break;
+//     } else if (truffle < 10) {
+//         alert('Too low, try again.');
+//     } else {
+//         alert('Too high, I\'m already sick!');
+//     }
+// }
+
+// The user guesses the types of cars that I've owned.  User gets 6 guesses.
+var cars = ['Mustang', 'Honda']; // cars.Length is 4
+
+//TODO check if cars equals a value in correctAnswers
+for (var guesses = 0; guesses < 6 ; guesses ++ ) {
+    var carsGuess = prompt('What brand of cars have I owned');
+    var guessRight = false;
+    console.log(carsGuess);
+
+    //Loop over items in array
+    for (var i = 0; i < cars.length; i++) {
+        console.log( 'LOOP 2' );
+        console.log( 'their guess' );
+
+        if ( carsGuess === cars[i] ) {
+            alert('You got it, Jack!');
+            guessRight = true;
+            break;
+        }
+
+        if (i === cars.length-1)  {
+            alert('Bo Didley, guess again!');
+
+        }
     }
-}
+    
+    if (guessRight) {
+        alert('And now you\'re done!');
+        break;
+    
+
+    
+    }
+    
+
+    }
+
+    
+
+
 

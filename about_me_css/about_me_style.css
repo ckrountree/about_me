@@ -2,21 +2,53 @@
 body {
     font-family: Georgia, Cochin, Times New Roman;
     text-align: center;
+
 }
+
 /* the primary header should be in purple */
 h1 {
     color: blanchedalmond;
     background-color: darkgreen
 }
+
 /* the secondary header should be in Helvetica, color blue */
 h3 {
     color: blue;
-    font-family: Helvetica;
+    font-family: Papyrus
 }
+
+/* the div should be bordered in purple */
+div {
+    border-style: solid;
+    border-color: purple;
+    background-color: lightgray;
+    
+}
+
+#header {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#tidbits {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#Portland {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
 /* the paragraph should be in black */
 p {
     color: black;
-    border-style: solid;
-    border-color: purple;
+    
     
 }

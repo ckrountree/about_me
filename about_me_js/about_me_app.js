@@ -1,7 +1,6 @@
 'use strict'
 
 // this script asks if Kate is my first name //
-    var totalRight = 0
 // var name = prompt('Is Kate my first name?');
 
 // this variable allows either letter case to be allowed and converted to uppercase//
@@ -18,6 +17,7 @@
 // console.log('Q1? ' + name);
 
 // /If the answer to 'age' is yes, output 'Is Kate my first name?' //
+    var totalRight = 0;
 var name = prompt('Is Kate my first name?');
 if (name.toUpperCase() === 'N' || name.toUpperCase() === 'NO') {
     alert('Booyah!');

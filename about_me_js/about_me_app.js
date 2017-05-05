@@ -1,9 +1,6 @@
 'use strict';
 
-<<<<<<< HEAD
-// this script asks if Kate is my first name //
-=======
->>>>>>> 5558e06c86c5fcd5dd6fbb67aa470544ab59716c
+
 // var name = prompt('Is Kate my first name?');
 
 // this variable allows either letter case to be allowed and converted to uppercase//
@@ -33,7 +30,7 @@ function q1() {
     else {
         alert('Oh, no!  You don\'t know me at all!');
     }
-    console.log('Q2? ' + name);
+    console.log('Q1? ' + name);
 
 }
 
@@ -130,12 +127,16 @@ function q7() {
                 totalRight +=1;
                 break;
 
-            }
-
-            if (j === cars.length-1)  {
+            }  else {
                 alert('Bo Didley, guess again!');
-
             }
+
+
+// one way to accomplish the response to a wrong answer but not as clean
+            // if (j === cars.length-1)  {
+            //     alert('Bo Didley, guess again!');
+
+            // }
         }
         
         if (guessRight) {

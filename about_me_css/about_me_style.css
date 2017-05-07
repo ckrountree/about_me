@@ -1,19 +1,121 @@
-/* the font should be in Georgia, if available, if not, then Cochin, if not that, finally in TNR*/
+/* the font should be in Impact, if available, if not, then Cochin, if not that, finally in TNR*/
 body {
-    font-family: Georgia, Cochin, Times New Roman;
     text-align: center;
 }
-/* the primary header should be in purple */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: inline;
+    padding: 0 80px;
+}
+
+/* Color of font inside nav bar is blanched almond */
+.nav a{
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* the primary header should be in blanched almond on dark green */
 h1 {
-    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blanchedalmond;
+    background-color: darkgreen;
 }
-/* the secondary header should be in blue */
+
+/* the secondary header should be in Georgia, color black */
 h3 {
-    color: blue;
-    font-family: Arial;
+    color: black;
+    font-family: Georgia;
+    font-size: 200%
 }
+
+#game {
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#tidbits, #thoughts {
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* the div should be bordered in double lined blue */
+.aboutMe {
+    border-style: double;
+    border-color: blue;
+    background-color: lightgray;
+    font-family: Georgia;
+    line-height: 1.0em;
+}
+
+#header, #midsection, #bottom {
+    min-height: 100px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px #777777;
+    border-width: medium;
+}
+
+
+#header {
+    width: 50%;
+    line-height: 0.3em;
+}
+
+#midsection {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 30px;
+    box-shadow: 5px 5px 5px #777777;
+}
+
+li {
+    text-indent: 20px;
+}
+
+#bottom {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 30px;
+    box-shadow: 5px 5px 5px #777777;
+    list-style-type: square;
+}
+
+.pdx {
+    list-style-type: square;
+}
+
 /* the paragraph should be in black */
 p {
     color: black;
+    
     
 }

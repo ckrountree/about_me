@@ -2,16 +2,54 @@
 <html>
     <head>
         <title>About Me</title>
+        <link href='about_me_css/skeleton.css' type='text/css' rel='stylesheet'/>
         <link href='about_me_css/about_me_style.css' type='text/css' rel='stylesheet'/>
     </head>
         <body>
-            <h1>All About Me</h1>
-            <h3>It's True...</h3>
-                <p id = 'name'>1.  Is Kate my first name?</p>
-                <p>2.  Am I over 21 years old?</p>
-                <p>3.  Was I once a soccer player?</p>
-                <p>4.  Am I a microbiologist?</p>
-                <p>5.  Do I like mayonnaise?</p>
-            <script src='about_me_js/about_me_app.js'></script>
+            <header>
+                    <h1>About Me</h1>
+                        <div class= 'topnav'>
+                            <nav>
+                                <ul>
+                                    <li class= 'nav'><a href="#game">Game</a></li>
+                                    <li class= 'nav'><a href="#tidbits">Tidbits</a></li>
+                                    <li class= 'nav'><a href="#thoughts">Thoughts</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                </header>
+            <h3 id='game'>Is It True...</h3>
+                <div class= 'aboutMe' id = 'header'>
+                    <p id = 'name'>1.  Is Kate my first name?</p>
+                    <p>2.  Am I over 21 years old?</p>
+                    <p>3.  Was I once a soccer player?</p>
+                    <p>4.  Am I a microbiologist?</p>
+                    <p>5.  Do I like mayonnaise?</p>
+                    <p>6.  How many chocolate truffles can I eat, in one sitting, before getting sick?</p>
+                    <p>7.  What brand of cars have I owned?</p>
+                </div>    
+
+            <h3 id= 'tidbits'>More Tidbits</h3>    
+                <div class= 'aboutMe' id = 'midsection'>
+                    <ol>
+                        <li>I'm from San Francisco.</li>
+                        <li>I earned a degree in Molecular Biology.</li>
+                        <li>As stinky as they are, I love to eat brussel sprouts.</li>
+                        <li>I love to read books (<i>Cutting for Stone</i> is a fav).</li>
+                        <li>I have twin boys.</li>
+                    </ol>
+                </div>
+
+            <h3 id= 'thoughts'>Thoughts on Portland</h3>
+                <div class= 'aboutMe' id = 'bottom'>
+                    <ul>
+                        <li class= 'pdx'>I love the restaurant options in Portland</li>
+                        <li class= 'pdx'>I'm a huge Timbers fan</li>
+                        <li class= 'pdx'>I'm not always crazy about the weather here</li>
+                        <li class= 'pdx'>Portland has the nicest drivers</li>
+                        <li class= 'pdx'>It's two main colors are green and gray</li>
+                    </ul>
+                </div>
+           <!--  <script src='about_me_js/about_me_app.js'></script> -->
         </body>
 </html>

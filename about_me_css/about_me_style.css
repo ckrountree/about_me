@@ -1,6 +1,8 @@
-/* the font should be in Impact, if available, if not, then Cochin, if not that, finally in TNR*/
+/* the font should be in Impact, if available, if not, then Cochin, if not that, finally in TNR.  Background image of author and her twins.*/
 body {
     text-align: center;
+    background-image: url("images/boysAndI.jpg");
+    background-position: center right;
 }
 
 /* Add a black background color to the top navigation */
@@ -16,7 +18,7 @@ body {
     padding: 0 80px;
 }
 
-/* Color of font inside nav bar is blanched almond */
+/* Color of font inside nav bar is white */
 .nav a{
     color: white;
 }

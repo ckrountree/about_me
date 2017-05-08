@@ -1,7 +1,7 @@
 /* the font should be in Impact, if available, if not, then Cochin, if not that, finally in TNR.  Background image of author and her twins.*/
 body {
     text-align: center;
-    background-image: url("images/boysAndI.jpg");
+    background-image: url("Images/boysAndI.jpg");
     background-position: center right;
 }
 

@@ -113,7 +113,7 @@ function q7() {
 
     //TODO check if cars equals a value in correctAnswers
     for (var guesses = 0; guesses < 6 ; guesses ++ ) {
-        var carsGuess = prompt('What brand of cars have I owned?').toUpperCase();
+        var carsGuess = prompt('Name a brand of car that I have owned.').toUpperCase();
         var guessRight = false;
         console.log(carsGuess);
 
@@ -128,7 +128,7 @@ function q7() {
                 break;
 
             }  else {
-                alert('Bo Didley, guess again!');
+                alert('Hmmmm, guess again!');
             }
 
 
